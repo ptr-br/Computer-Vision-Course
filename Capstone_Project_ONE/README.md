@@ -5,7 +5,7 @@
 
 ![Facial Keypoint Detection][image1]
 
-##Objective
+## Objective
 
 This project aimed to build a software that can take in a given image of a person and automatically predict certain key-points of the persons face.
 
@@ -15,4 +15,7 @@ Furthermore the preprocessing of the data as well as the training of the build n
 
 ## Results 
 
-The pictures below show the input image of the Mona Lisa that is first processed with an OpenCV tool for face recognition. After that the key-point detector build during this project is applied.
+Below an pipline as executed in notebook three is shown. First the face in the given image is detected using openCV. After thast, the network detects the key points on the given face. In the last steps the key points are used to put Mona Lisa some sunglasses on.
+
+
+![animated1](images/mona_lisa_pipeline.gif)
