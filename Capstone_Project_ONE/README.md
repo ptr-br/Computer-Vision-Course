@@ -1,17 +1,11 @@
-[//]: # "Image References"
-
-[image1]: ./images/key_pts_example.png "Facial Keypoint Detection"
+[![Udacity Computer Vision Nanodegree](http://tugan0329.bitbucket.io/imgs/github/cvnd.svg)](https://www.udacity.com/course/computer-vision-nanodegree--nd891)
 # Facial Keypoint Detection
-
-![Facial Keypoint Detection][image1]
-
 ## Objective
 
 This project aimed to build a software that can take in a given image of a person and automatically predict certain key-points of the persons face.
 
 Therefore a CNN that is able to predict the key-points in an given input image had to be created.
 Furthermore the preprocessing of the data as well as the training of the build network structure are main parts of the project.
-
 
 ## Results 
 
