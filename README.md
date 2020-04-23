@@ -7,11 +7,14 @@
 </p>
 
 
+## Project Overview
 This repository contains the projects made during the Udacity Nanodegree in Computer Vision.
+The __three main projects__ from the degree are:
+- [Facial Keypoint Detection](./Capstone_Project_ONE)  
+- [Image Captioning](./Capstone_Project_TWO)  
+- [Landmark Detection](./Capstone_Project_THREE)  
 
-## Projects 
 
-The three main projects from the degree are:
-- Facial Keypoint Recognition 
-- Image Captioning 
-- 
+## Environment 
+
+Since Jupyter Notebooks are used for all projects, simply use Anaconda to execute the notebooks.

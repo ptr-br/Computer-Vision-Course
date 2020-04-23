@@ -1,11 +1,15 @@
 import glob
 import os
 import torch
+import torch.nn.functional as F
 from torch.utils.data import Dataset, DataLoader
 import numpy as np
 import matplotlib.image as mpimg
 import pandas as pd
 import cv2
+# added impots
+import random
+
 
 
 class FacialKeypointsDataset(Dataset):
@@ -103,7 +107,9 @@ class Rescale(object):
         img = cv2.resize(image, (new_w, new_h))
         
         # scale the pts, too
+        
         key_pts = key_pts * [new_w / w, new_h / h]
+        
 
         return {'image': img, 'keypoints': key_pts}
 
@@ -159,3 +165,18 @@ class ToTensor(object):
         
         return {'image': torch.from_numpy(image),
                 'keypoints': torch.from_numpy(key_pts)}
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
