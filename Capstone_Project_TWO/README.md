@@ -12,6 +12,6 @@ The following pictures show some good  captions the network guessed.
 
 #### Good Captions
 
-![picture and caption of a tennis player.](./images/tennis.png)
+![picture and caption of a tennis player.](images/tennis.png)
 
-![picture and caption of a zebra.](./images/zebra.png)
+![picture and caption of a zebra.](images/zebra.png)
