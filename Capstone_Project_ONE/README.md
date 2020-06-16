@@ -9,7 +9,7 @@ Furthermore the preprocessing of the data as well as the training of the build n
 
 ## Results 
 
-Below a pipline as executed in notebook three is shown. First the face in the given image is detected using openCV. After thast, the network detects the key points on the given face. In the last steps the key points are used to put Mona Lisa some sunglasses on.
+Below a pipline as executed in notebook three is shown. First the face in the given image is detected using openCV. After that, the network detects the key points on the given face. In the last steps the key points are used to put Mona Lisa some sunglasses on.
 
 
 ![animated1](images/mona_lisa_pipeline.gif)
